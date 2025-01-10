@@ -1,5 +1,15 @@
+:root {
+    --header-background-color: #1D1616;
+
+    --logo-color: #8E1616;
+
+    --nav-link-color: #D84040;
+
+    --button-text-color: #EEEEEE;
+}
+
 header {
-    background-color: #1D1616;
+    background-color: var(--header-background-color);
 }
 
 .navbar {
@@ -114,6 +124,7 @@ header {
 
         width: 80%;
     }
+    
     .open {
         display: block;
     }

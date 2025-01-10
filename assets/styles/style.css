@@ -1,11 +1,3 @@
-:root {
-    --logo-color: #8E1616;
-
-    --nav-link-color: #D84040;
-
-    --button-text-color: #EEEEEE;
-}
-
 * {
     box-sizing: border-box;
 
@@ -49,3 +41,9 @@ a {
     a:hover {
         text-decoration: underline;
     }
+
+.return {
+    margin-top: 100px;
+    
+    text-align: center;
+}
